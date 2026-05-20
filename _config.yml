@@ -1,3 +1,11 @@
 theme: jekyll-theme-time-machine
-title: Christopher Caridi Demo
+title: Christopher Caridi Demo for Transfering Financials between Accounting Softwares
 description: This is a rapid demo tackling a costly workflow problem in real estate accounting - migrating financial data (GL, AR/AP, budgets) between property management firms. Built using AI-assissted development.
+                  Problem - A financial analyst onboarding a new building's financials into their firm's accounting software spends 4–6 hours per property on manual GL code reconciliation — the prior management firm's trial balance open in Excel on one screen, the firm's accounting software on the other, alt-tabbing line by line to type each amount into the matching GL code. It consumes analyst hours that compete directly with month-end close. The result is rushed work, copy-paste errors, and missed deadlines.
+                  Solution - A data mapping tool that takes a trial balance CSV from the prior management firm and produces an import-ready file for the new firm's accounting software, with the analyst as a human-in-the-loop reviewer rather than the manual entry clerk. 
+                  Workflow - 
+                        1. Analyst uploads the prior firm's trial balance CSV.
+                        2. The tool matches each source GL against the firm's chart of accounts, assigning a confidence score to each suggestion.
+                        3. The analyst reviews each row and chooses to confirm the suggestion, override with a different target GL, or flag the row as "needs manual decision." High-confidence matches (e.g., "Supplies & Hardware" → "Supplies") can be bulk-confirmed; low-confidence and unmatched rows are surfaced for explicit attention.
+                        4. The tool validates that total source dollars equal total mapped dollars before allowing finalization.
+                        5. On confirmation, the tool exports a CSV in the target accounting software's import format and shows a journal entry preview of the resulting debits and credits.
