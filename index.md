@@ -1,10 +1,18 @@
 This is a rapid demo tackling a costly workflow problem in real estate accounting: migrating financial data (GL, AR/AP, budgets) between property management firms. Built using AI-assissted development. 
 
 ## The Problem
-A financial analyst onboarding a new building's financials into their firm's accounting software spends 4–6 hours per property on manual GL code reconciliation. This involves the prior firm's trial balance in Excel on one screen and the accounting software on the other, manually entering the GL code and amounts. This process is time-consuming, prone to copy-paste errors, and competes directly with month-end close deadlines.
+
+Financial analysts onboarding new properties face a significant efficiency bottleneck during the financial data migration process. Currently, the process requires an analyst to spend **2-3 hours per property** on manual reconciliation, often involving a tedious "side-by-side" workflow—viewing the prior management firm’s trial balance (in Excel or PDF view) on one screen while manually inputting data into the new firm’s accounting system on the other.
+
+### Core Challenges:
+
+* **GL Code Discrepancies:** The primary issue is that legacy GL codes from prior agents rarely align with the new firm’s Chart of Accounts.
+* **Manual Entry:** Analysts must manually map each legacy GL code to the corresponding internal code, calculate totals, and perform line-by-line data entry. Then, the analyst will post the journal entry to capture the property's financial data. This is the first set of financial information posted on the new firm's books.
+ 
+* **Operational Risk:** This repetitive, manual process is not only time-consuming but also creates a high risk of human error, potentially delaying month-end close and reducing the analyst's ability to focus on higher-value financial review.
 
 ## The Solution
-A data mapping tool that takes a trial balance CSV from the prior management firm and produces an import-ready file for the new firm’s accounting software. This shifts the analyst from a "manual entry clerk" to a "human-in-the-loop reviewer."
+A data mapping tool that takes a trial balance CSV from the prior management firm and produces an import-ready file for the new firm’s accounting software. This shifts the analyst from a "manual entry upload" to a "human-in-the-loop reviewer."
 
 ## The Workflow
 1. **Upload:** Analyst uploads the prior firm's trial balance CSV.
