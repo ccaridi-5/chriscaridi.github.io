@@ -28,7 +28,8 @@ A data mapping tool that takes a trial balance CSV from the prior management fir
 
 ![Workflow Step 3](Workflow%20Step%203.png)
 
-!![Workflow Step 4](workflow_step_4_title.png)
+![Workflow Step 4](Workflow%20Step%204_.png)
+
 ## Out of Scope
 1. Data accuracy of previous firm’s financials 
 2. Multi-period imports (one trail balance per upload)
