@@ -22,6 +22,13 @@ A data mapping tool that takes a trial balance CSV from the prior management fir
 4. **Validation:** High-confidence matches are bulk-confirmed; the tool validates that total source dollars equal total mapped dollars before allowing finalization.
 5. **Export:** Upon confirmation, the tool exports a CSV in the target software's format and shows a journal entry preview. 
 
+![Workflow Step 1](Workflow%20Step%201.png)
+
+![Workflow Step 2](Workflow%20Step%202.png)
+
+![Workflow Step 3](Workflow%20Step%203.png)
+
+!![Workflow Step 4](workflow_step_4_title.png)
 ## Out of Scope
 1. Data accuracy of previous firm’s financials 
 2. Multi-period imports (one trail balance per upload)
