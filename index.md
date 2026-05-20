@@ -1,1 +1,19 @@
+This is a rapid demo tackling a costly workflow problem in real estate accounting: migrating financial data (GL, AR/AP, budgets) between property management firms. Built using AI-assissted development. 
 
+## The Problem
+A financial analyst onboarding a new building's financials into their firm's accounting software spends 4–6 hours per property on manual GL code reconciliation. This involves the prior firm's trial balance in Excel on one screen and the accounting software on the other, manually entering the GL code and amounts. This process is time-consuming, prone to copy-paste errors, and competes directly with month-end close deadlines.
+
+## The Solution
+A data mapping tool that takes a trial balance CSV from the prior management firm and produces an import-ready file for the new firm’s accounting software. This shifts the analyst from a "manual entry clerk" to a "human-in-the-loop reviewer."
+
+## The Workflow
+1. **Upload:** Analyst uploads the prior firm's trial balance CSV.
+2. **AI Matching:** The tool matches each source GL against the firm's chart of accounts, assigning a confidence score to each suggestion.
+3. **Review:** The analyst reviews each row, confirms suggestions, overrides with a different target GL, or flags rows for manual decision.
+4. **Validation:** High-confidence matches are bulk-confirmed; the tool validates that total source dollars equal total mapped dollars before allowing finalization.
+5. **Export:** Upon confirmation, the tool exports a CSV in the target software's format and shows a journal entry preview. 
+
+## Out of Scope
+1. Data accuracy of previous firm’s financials 
+2. Multi-period imports (one trail balance per upload)
+3. Non 1:1 matches
