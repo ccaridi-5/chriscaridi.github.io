@@ -1,4 +1,4 @@
-This is a rapid demo tackling a costly workflow problem in real estate accounting: migrating financial data (GL, AR/AP, budgets) between property management firms. Built using AI-assissted development. 
+This is a rapid demo tackling an onboarding workflow problem in real estate accounting built with base44.
 
 ## The Problem
 
