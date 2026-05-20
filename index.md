@@ -2,7 +2,7 @@ This is a rapid demo tackling a costly workflow problem in real estate accountin
 
 ## The Problem
 
-Financial analysts onboarding new properties face a significant efficiency bottleneck during the financial data migration process. Currently, the process requires an analyst to spend **2-3 hours per property** on manual reconciliation, often involving a tedious "side-by-side" workflow—viewing the prior management firm’s trial balance (in Excel or PDF view) on one screen while manually inputting data into the new firm’s accounting system on the other.
+Financial analysts onboarding new properties face a significant efficiency bottleneck during the financial data transfer process. Currently, the process requires an analyst to spend **2-3 hours per property** on manual reconciliation, often involving a tedious "side-by-side" workflow—viewing the prior management firm’s trial balance (in Excel or PDF view) on one screen while manually inputting data into the new firm’s accounting system on the other.
 
 ### Core Challenges:
 
