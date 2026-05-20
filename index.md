@@ -7,6 +7,7 @@ Financial analysts onboarding new properties face a significant efficiency bottl
 ### Core Challenges:
 
 * **GL Code Discrepancies:** The primary issue is that legacy GL codes from prior agents rarely align with the new firm’s Chart of Accounts.
+
 * **Manual Entry:** Analysts must manually map each legacy GL code to the corresponding internal code, calculate totals, and perform line-by-line data entry. Then, the analyst will post the journal entry to capture the property's financial data. This is the first set of financial information posted on the new firm's books.
  
 * **Operational Risk:** This repetitive, manual process is not only time-consuming but also creates a high risk of human error, potentially delaying month-end close and reducing the analyst's ability to focus on higher-value financial review.
