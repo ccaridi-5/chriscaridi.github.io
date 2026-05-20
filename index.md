@@ -13,7 +13,7 @@ Financial analysts onboarding new properties face a significant efficiency bottl
 * **Operational Risk:** This repetitive, manual process is not only time-consuming but also creates a high risk of human error, potentially delaying month-end close and reducing the analyst's ability to focus on higher-value financial review.
 
 ## The Solution
-A data mapping tool that takes a trial balance CSV from the prior management firm and produces an import-ready file for the new firm’s accounting software. This shifts the analyst from a "manual entry upload" to a "human-in-the-loop reviewer."
+A data mapping tool that takes a trial balance CSV from the prior management firm and produces an import-ready file journal entry for the new firm’s accounting software.
 
 ## The Workflow
 1. **Upload:** Analyst uploads the prior firm's trial balance CSV.
