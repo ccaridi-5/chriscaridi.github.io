@@ -1,23 +1,5 @@
 ---
-@import "{{ site.theme }}";
-
-/* 1. FORCE THE BACKGROUND ON EVERY ROOT CONTAINER */
-html, body, #wrapper, .wrapper, .container {
-  background-image: url('../../Purple%20Galaxy.jpg') !important;
-  background-size: cover !important;
-  background-attachment: fixed !important;
-  background-position: center !important;
-  background-color: #0b0612 !important;
-}
-
-/* 2. DIRECT CONTENT OVERRIDES */
-h1, h2, h3, h4 {
-  color: #c084fc !important; /* Nebula Purple */
-  text-shadow: 0 0 8px rgba(192, 132, 252, 0.4);
-}
-
-p, li, span {
-  color: #f0ebf8 !important; /* Starlight White */
-}
+theme: jekyll-theme-architect
 title: Demo - Transfering Financials between Different Accounting Softwares
+
 ---
