@@ -1,5 +1,5 @@
 ---
-theme: @import "{{ site.theme }}";
+@import "{{ site.theme }}";
 
 /* 1. FORCE THE BACKGROUND ON EVERY ROOT CONTAINER */
 html, body, #wrapper, .wrapper, .container {
