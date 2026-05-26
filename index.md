@@ -1,4 +1,4 @@
-This is a rapid demo tackling an onboarding workflow problem in real estate accounting: manually reconciling and entering a prior management company’s financials into the firm’s accounting software during property onboarding. 
+This is a working demo tackling an onboarding workflow problem in real estate accounting: manually reconciling and entering a prior management company’s financials into the firm’s accounting software during property onboarding. Built on Base44.
 
 ## The Problem
 
